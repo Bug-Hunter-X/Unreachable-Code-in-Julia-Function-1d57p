@@ -1,0 +1,3 @@
+# Unreachable Code Bug in Julia
+
+This repository demonstrates an example of unreachable code in a Julia function. The `return 0` statement in `myfunction` is never reached due to the preceding `return` statements within the `if` and `else` blocks.  This can lead to subtle errors and unexpected behavior. The solution shows how to refactor the code for improved clarity and maintainability, removing the unreachable code completely.
